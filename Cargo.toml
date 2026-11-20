@@ -1,0 +1,9 @@
+[package]
+name = "matataview"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = { version = "0.37", default-features = false, features = ["default_fonts", "glow", "wayland", "x11"] }
+image = { version = "0.25", default-features = false, features = ["jpeg", "png"] }
+rfd = "0.18"
